@@ -68,6 +68,8 @@ app.get("/categorias", function(pet, resp){
 
 })
 
+//COMENTARIO 1
+
 app.get("/categorias/:id/productos", function(pet, resp){
     getProductosCategoria(parseInt(pet.params.id), function(datos){
         if(!datos[0]){
