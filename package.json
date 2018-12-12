@@ -1,0 +1,34 @@
+{
+  "name": "adi2018",
+  "version": "1.0.0",
+  "description": "ADI2018",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateoperezpablo/ADI2018.git"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateoperezpablo/ADI2018/issues"
+  },
+  "homepage": "https://github.com/mateoperezpablo/ADI2018#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "currency-conversion": "^0.2.4",
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "jwt-simple": "^0.5.5",
+    "knex": "^0.15.2",
+    "moment": "^2.22.2",
+    "money": "^0.2.0",
+    "node-fetch": "^2.2.0",
+    "nodemon": "^1.18.5",
+    "sqlite3": "^4.0.2"
+  }
+}
