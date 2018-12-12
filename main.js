@@ -54,7 +54,7 @@ function checkAuth(pet, resp, next) {
     }
     else {
         resp.status(401);
-        resp.send("El token enviado no es correcto");      
+        resp.send("El token enviado no es correcto ESTO ES UN FALLO");      
     }
 }
 
@@ -69,6 +69,7 @@ app.get("/categorias", function(pet, resp){
 })
 
 //COMENTARIO 1
+//COMENTARIO 2
 
 app.get("/categorias/:id/productos", function(pet, resp){
     getProductosCategoria(parseInt(pet.params.id), function(datos){
