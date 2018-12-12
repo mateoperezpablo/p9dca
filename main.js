@@ -70,6 +70,7 @@ app.get("/categorias", function(pet, resp){
 
 //COMENTARIO 1
 //COMENTARIO 2
+//COMENTARIO 4
 
 app.get("/categorias/:id/productos", function(pet, resp){
     getProductosCategoria(parseInt(pet.params.id), function(datos){
